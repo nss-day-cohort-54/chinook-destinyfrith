@@ -4,4 +4,4 @@ SELECT
     c.CustomerId,
     c.Country
 FROM customer c 
-WHERE country != 'USA';
+WHERE c.country != 'USA';
